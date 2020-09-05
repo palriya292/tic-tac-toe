@@ -4,4 +4,4 @@
 - `https://tic-tac-toe-palriya292.netlify.app`
 
 ![initial interface]("initial.jpg")
-![winner]("x-wins.jpg")
+![winner](x-wins.jpg)
