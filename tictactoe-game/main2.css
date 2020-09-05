@@ -1,0 +1,24 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #abbaab, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #abbaab, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+input{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: #c0c7c0;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    
+}
+

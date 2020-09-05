@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+    <link href="main2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <script src="main.js"></script>
+
+  
+  <header>
+  <h1>TIC TAC TOE</h1>
+  </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  
+  <table align="center">
+  <tr>
+  <td><input type="button" id="1" onclick="xo(1)" value=""/></td>
+  <td><input type="button" id="2" onclick="xo(2)" value=""/></td>
+  <td><input type="button" id="3" onclick="xo(3)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="4" onclick="xo(4)" value=""/></td>
+  <td><input type="button" id="5" onclick="xo(5)" value=""/></td>
+  <td><input type="button" id="6" onclick="xo(6)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="7" onclick="xo(7)" value=""/></td>
+  <td><input type="button" id="8" onclick="xo(8)" value=""/></td>
+  <td><input type="button" id="9" onclick="xo(9)" value=""/></td>
+  </tr>
+  </table>
+  
+  <button onclick="resetToDefault()">Reset</button>
+  
+  <div align="center" id="popup">
+  <p id="text">text</p>
+  <button id="popupbutton" onclick="resetToDefault()">Ok</button>
+  </div>
+  
+  <div id="overlay"></div>
+  
+  </body>
+</html>
